@@ -9,8 +9,15 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
+    <div style="padding: 10px">
+      <p class="notice"><%= notice %> </p>
+      <p class="alert"><%= alert %> </p>
 
-  
-    <%= yield %>
+      <%= yield %>
+    </div>
+
+    <%= debug user_signed_in? %>
+    <%= debug session.to_hash %>
+
   </body>
 </html>

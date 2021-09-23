@@ -2,6 +2,21 @@
 <div class="">
     <%= link_to "Admin", admin_path() %>
 </div>
+
+<%# test si l'user est connecter%>
+<%# <%= debug user_signed_in? %> 
+<%# showing user connected %>
+<%# <%= debug current_user  %> 
+
 <p class="passe">
-    <%= link_to 'Se connecter', new_user_session_path %>
+    <% if user_signed_in? %>
+        <div>
+            <%=link_to 'Se deconecter', destroy_user_session_path, method: :delete %>
+        </div>
+    <% else %>
+        <div>
+            
+            <%= link_to 'Se connecter', new_user_session_path %>
+        </div>
+    <% end %>
 </p>
