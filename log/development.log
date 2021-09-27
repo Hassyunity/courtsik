@@ -7171,3 +7171,212 @@ Processing by AdminController#index as HTML
 Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3897)
 
 
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:23:52 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055f5963a8ec8@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 1173)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:24:42 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055f5963a8ec8@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 232)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:25:55 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055f5963a8ec8@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 217)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:25:58 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055f5963a8ec8@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 217)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:26:00 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055f5963a8ec8@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 216)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:26:26 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055d8e4972580@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 1173)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:26:36 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055d8e4972580@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 235)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:26:38 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055d8e4972580@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 217)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:26:55 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x000055d8e4972580@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 217)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:27:07 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 227)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 5707)
+Completed 200 OK in 26ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 9694)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:27:10 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 3303)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3740)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:27:10 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3297)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3728)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:27:11 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3302)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3735)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:27:44 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 432)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 3614)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 4674)
+
+
+Started GET "/admin" for 127.0.0.1 at 2021-09-27 08:27:52 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 3263)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-27 08:29:39 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 3365)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3773)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4491769046933152740)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePosts (20210927053901)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.6ms)[0m  [1m[35mCREATE TABLE "posts" ("id" bigserial primary key, "name" character varying, "content" text, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210927053901"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4491769046933152740)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/post" for 127.0.0.1 at 2021-09-27 08:45:59 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/post"):
+  
+Started GET "/posts" for 127.0.0.1 at 2021-09-27 08:46:28 +0300
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 4150)
+
+
+  
+NoMethodError (undefined method `authorize!' for #<PostsController:0x007fb4a8164dd8>):
+  
+app/controllers/posts_controller.rb:6:in `index'
+Started GET "/posts" for 127.0.0.1 at 2021-09-27 08:49:44 +0300
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2921)
+
+
+  
+NoMethodError (undefined method `authorize!' for #<PostsController:0x0055d8e68916f0>):
+  
+app/controllers/posts_controller.rb:6:in `index'
+Started GET "/posts" for 127.0.0.1 at 2021-09-27 08:50:48 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:16
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1330)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 15474)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.7ms | Allocations: 17232)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-09-27 08:50:51 +0300
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 11.2ms | Allocations: 4008)
+  Rendered posts/new.html.erb within layouts/application (Duration: 13.0ms | Allocations: 4384)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 7800)
+Completed 200 OK in 58ms (Views: 21.6ms | ActiveRecord: 18.3ms | Allocations: 13208)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-09-27 08:50:55 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:16
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1539)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 5083)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.7ms | Allocations: 5512)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-09-27 08:51:06 +0300
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 2.2ms | Allocations: 875)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 991)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4385)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 5435)
+
+
