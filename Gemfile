@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # gem devise
 gem 'devise'
 gem 'cancancan'
+gem 'shrine', '~> 3.3'
+gem "erb2haml", :group => :development

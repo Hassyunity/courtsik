@@ -11,6 +11,9 @@ module Cours
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
+    #a revoir config ligne 15/ corriger
+    config.autoload_paths << "#{Rails.root}/app/uploader"
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
