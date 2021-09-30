@@ -99,6 +99,16 @@ GEM
     haml (5.2.2)
       temple (>= 0.8.0)
       tilt
+    haml-rails (2.0.1)
+      actionpack (>= 5.1)
+      activesupport (>= 5.1)
+      haml (>= 4.0.6, < 6.0)
+      html2haml (>= 1.0.1)
+      railties (>= 5.1)
+    hamlit (2.15.1)
+      temple (>= 0.8.2)
+      thor
+      tilt
     html2haml (2.2.0)
       erubis (~> 2.7.0)
       haml (>= 4.0, < 6)
@@ -241,6 +251,9 @@ DEPENDENCIES
   capybara (>= 3.26)
   devise
   erb2haml
+  haml
+  haml-rails
+  hamlit
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg

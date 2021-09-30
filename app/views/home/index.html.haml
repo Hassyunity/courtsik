@@ -1,10 +1,11 @@
-%h1 Binvenue dans courtsik :)
-%div
-  = link_to "Admin", admin_path()
-%p.passe
-  - if user_signed_in?
-    %div
-      = link_to 'Se deconecter', destroy_user_session_path, method: :delete
-  - else
-    %div
-      = link_to 'Se connecter', new_user_session_path
+#page
+  %h1 Binvenue dans courtsik :)
+  %div
+    = link_to "Admin", admin_path()
+  %p.passe
+    - if user_signed_in?
+      %div
+        = link_to 'Se deconecter', destroy_user_session_path, method: :delete
+    - else
+      %div
+        = link_to 'Se connecter', new_user_session_path
