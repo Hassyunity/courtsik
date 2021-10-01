@@ -15677,3 +15677,434 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 1.2ms | Allocations: 30373)
 
 
+Started GET "/articles" for 127.0.0.1 at 2021-09-30 18:26:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/" for 127.0.0.1 at 2021-09-30 18:27:20 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 17.6ms | Allocations: 8829)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 20.0ms | Allocations: 12121)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 8.1ms | Allocations: 13143)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 09:56:56 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 12.8ms | Allocations: 4548)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 18.9ms | Allocations: 9093)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 7.4ms | Allocations: 9521)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 09:59:58 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 2.1ms | Allocations: 1240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 5.8ms | Allocations: 5541)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 1.2ms | Allocations: 5967)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 09:59:59 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 2.0ms | Allocations: 1240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 5.5ms | Allocations: 5541)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 1.1ms | Allocations: 5967)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 10:08:14 +0300
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/new.html.haml within layouts/application
+  Rendered posts/_form.html.haml (Duration: 19.5ms | Allocations: 12300)
+  Rendered posts/new.html.haml within layouts/application (Duration: 24.8ms | Allocations: 14881)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 42.0ms | Allocations: 22790)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 7.1ms | Allocations: 23369)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 10:08:19 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (2.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 6.3ms | Allocations: 1259)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 16.6ms | Allocations: 5560)
+Completed 200 OK in 18ms (Views: 13.6ms | ActiveRecord: 3.6ms | Allocations: 5993)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 10:08:20 +0300
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/new.html.haml within layouts/application
+  Rendered posts/_form.html.haml (Duration: 2.7ms | Allocations: 1081)
+  Rendered posts/new.html.haml within layouts/application (Duration: 3.1ms | Allocations: 1199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 14.2ms | Allocations: 5683)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 1.7ms | Allocations: 6121)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 10:08:36 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 2.2ms | Allocations: 1240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 6.3ms | Allocations: 5542)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 1.2ms | Allocations: 5975)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 10:09:27 +0300
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/new.html.haml within layouts/application
+  Rendered posts/_form.html.haml (Duration: 1.7ms | Allocations: 1081)
+  Rendered posts/new.html.haml within layouts/application (Duration: 2.0ms | Allocations: 1199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 7.7ms | Allocations: 5683)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.6ms | Allocations: 6121)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 10:09:44 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (2.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 8.2ms | Allocations: 1240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 18.1ms | Allocations: 5541)
+Completed 200 OK in 21ms (Views: 15.6ms | ActiveRecord: 3.8ms | Allocations: 5973)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 10:09:45 +0300
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/new.html.haml within layouts/application
+  Rendered posts/_form.html.haml (Duration: 6.8ms | Allocations: 1081)
+  Rendered posts/new.html.haml within layouts/application (Duration: 7.7ms | Allocations: 1199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 23.5ms | Allocations: 5684)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 1.5ms | Allocations: 6122)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 10:10:01 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 4.7ms | Allocations: 1240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 12.0ms | Allocations: 5541)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 2.4ms | Allocations: 5973)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 10:31:55 +0300
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/new.html.haml within layouts/application
+  Rendered posts/_form.html.haml (Duration: 1.3ms | Allocations: 1081)
+  Rendered posts/new.html.haml within layouts/application (Duration: 1.5ms | Allocations: 1199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 28.1ms | Allocations: 10049)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 11.9ms | Allocations: 10487)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 10:35:50 +0300
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (1.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.haml:12
+  Rendered posts/index.html.haml within layouts/application (Duration: 5.3ms | Allocations: 1256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 12.1ms | Allocations: 5557)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 2.7ms | Allocations: 5983)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:35:52 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 4.4ms | Allocations: 1213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 8.9ms | Allocations: 4605)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 1.3ms | Allocations: 5017)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2021-10-01 10:35:55 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms | Allocations: 2557)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:35:55 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (Duration: 1.3ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 12.0ms | Allocations: 3597)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 4011)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-10-01 10:35:58 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 2.9ms | Allocations: 6022)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 12.6ms | Allocations: 14311)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 15.0ms | Allocations: 17639)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 19371)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-10-01 10:36:13 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hassy@cours.mg", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "hassy@cours.mg"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 199ms (ActiveRecord: 0.9ms | Allocations: 4182)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:36:13 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 2.4ms | Allocations: 1212)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 4.9ms | Allocations: 4644)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.6ms | Allocations: 5062)
+
+
+Started GET "/admin" for 127.0.0.1 at 2021-10-01 10:36:41 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering admin/index.html.haml within layouts/application
+  Rendered admin/index.html.haml within layouts/application (Duration: 4.2ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 16.3ms | Allocations: 6630)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 1.0ms | Allocations: 7745)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:37:21 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 2.2ms | Allocations: 1213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 5.4ms | Allocations: 4606)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.6ms | Allocations: 5018)
+
+
+Started GET "/admin" for 127.0.0.1 at 2021-10-01 10:37:23 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering admin/index.html.haml within layouts/application
+  Rendered admin/index.html.haml within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 24.1ms | Allocations: 5185)
+Completed 200 OK in 27ms (Views: 22.1ms | ActiveRecord: 3.3ms | Allocations: 5636)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:38:24 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 33.6ms | Allocations: 17267)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 64.2ms | Allocations: 37092)
+Completed 200 OK in 81ms (Views: 64.5ms | ActiveRecord: 5.3ms | Allocations: 39994)
+
+
+Started GET "/admin" for 127.0.0.1 at 2021-10-01 10:38:26 +0300
+Processing by AdminController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering admin/index.html.haml within layouts/application
+  Rendered admin/index.html.haml within layouts/application (Duration: 5.0ms | Allocations: 1435)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:18
+  Rendered layout layouts/application.html.haml (Duration: 20.2ms | Allocations: 6627)
+Completed 200 OK in 26ms (Views: 22.5ms | ActiveRecord: 1.3ms | Allocations: 7745)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:38:50 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 10.4ms | Allocations: 8126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 12.9ms | Allocations: 11484)
+Completed 200 OK in 14ms (Views: 9.9ms | ActiveRecord: 3.6ms | Allocations: 12083)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:39:00 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 2.5ms | Allocations: 1223)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 5.4ms | Allocations: 4615)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.6ms | Allocations: 5029)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:39:04 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 3.9ms | Allocations: 1206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 8.3ms | Allocations: 4594)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 1.0ms | Allocations: 5005)
+
+
+Started GET "/admin" for 127.0.0.1 at 2021-10-01 10:39:06 +0300
+Processing by AdminController#index as HTML
+Filter chain halted as #<Proc:0x00007fb938a0a9f8@/usr/share/rvm/gems/ruby-2.6.5/gems/actionpack-6.1.4.1/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 10:39:12 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 9.2ms | Allocations: 1206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 12.6ms | Allocations: 4595)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 1.1ms | Allocations: 5007)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 15:10:00 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 18.3ms | Allocations: 10549)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.haml (Duration: 1310.0ms | Allocations: 22726)
+Completed 200 OK in 1311ms (Views: 1310.8ms | ActiveRecord: 6.6ms | Allocations: 23321)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 15:34:19 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 39.9ms | Allocations: 17266)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 3892.9ms | Allocations: 56975)
+Completed 200 OK in 3906ms (Views: 3887.7ms | ActiveRecord: 8.3ms | Allocations: 59980)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 15:34:26 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.haml:6
+  Rendered home/index.html.haml within layouts/application (Duration: 2.6ms | Allocations: 1230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 5.7ms | Allocations: 5020)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.6ms | Allocations: 5437)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2021-10-01 15:34:29 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 20ms (ActiveRecord: 2.6ms | Allocations: 4525)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 15:34:29 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (Duration: 2.3ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.haml (Duration: 6.4ms | Allocations: 3972)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4387)
+
+

@@ -64,3 +64,8 @@ gem "erb2haml"
 gem 'haml'
 gem 'hamlit'
 gem 'haml-rails'
+
+gem 'foundation-rails'
+gem 'autoprefixer-rails'
+gem 'coffee-rails'
+gem 'coffee-script', '~> 2.4', '>= 2.4.1'
