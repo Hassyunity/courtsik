@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '5b4b732c30ff49dc32807dc899d3f231c613a6dafe66e05e01e21e55f1a658fc89327036857311f159dbcbe24588f305d64238d933a666b28dd2199358826d21'
+  # config.secret_key = 'bd940d4487c9cb2dccf52d07c6210eb266650fed4623bf968ec674831e148d4b0408ebd9685ae57ee8ca36ebd8aed100ccf72db6f6df461f1336981e63b1d732'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -24,7 +24,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com' 
+  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -126,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '78f2649ae17dfe4d5b6023a11485f355c5163376011de76afce6bb0ce043829d7d97ec386e498ea4208b7dd92fd8f9cfc6354624a0b5943c2045961d162de375'
+  # config.pepper = 'cbccbb16c1b3360ae3c8da85d23656f19b7edea46d3c9d607578cfd2884fe28a337f3544a904fd9db13d1b685c02e29e99a437312823273de80875531d294cab'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -178,7 +178,7 @@ Devise.setup do |config|
 
   # ==> Configuration for :validatable
   # Range for password length.
-  config.password_length = 4..128
+  config.password_length = 6..128
 
   # Email regex used to validate email formats. It simply asserts that
   # one (and only one) @ exists in the given string. This is mainly

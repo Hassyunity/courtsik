@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :postspecs
+  # devise_for :userspecs
   resources :posts
   devise_for :users
   root "home#index"
